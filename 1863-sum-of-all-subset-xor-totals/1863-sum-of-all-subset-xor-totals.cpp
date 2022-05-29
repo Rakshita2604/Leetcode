@@ -7,7 +7,7 @@ public:
             int x = 0;
             for(int j=0; j<n; j++) {
                 if(i & (1 << j)) {
-                    x ^= nums[j];
+                    x =x^ nums[j];
                 }
             }
             sum += x;
