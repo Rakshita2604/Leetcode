@@ -20,10 +20,9 @@ public:
         }
         l=l/2;
         n=head;
-        while(l>0)
+        while(l--)
         {
             n=n->next;
-            l--;
         }
         return n;
     }
